@@ -70,7 +70,7 @@ window.addEventListener("load", fetchAndDisplayNews);
 // article/blog//
 /////////////////
 const blogAPI =
-  "https://newsapi.org/v2/everything?q=apple&from=2023-08-07&to=2023-08-07&sortBy=popularity&apiKey=8289078da9d6489f954daa10b6c9bfe9";
+  " https://newsapi.org/v2/everything?q=apple&from=2023-10-03&to=2023-10-03&sortBy=popularity&apiKey=8289078da9d6489f954daa10b6c9bfe9";
 function fecthAPIdata() {
   fetch(blogAPI)
     .then((response) => response.json())
@@ -133,7 +133,7 @@ window.addEventListener("load", fecthAPIdata);
 ///tech news///
 /////////////////
 const techApi =
-  "https://newsapi.org/v2/everything?q=apple&from=2023-08-07&to=2023-08-07&sortBy=popularity&apiKey=8289078da9d6489f954daa10b6c9bfe9";
+  "https://newsapi.org/v2/everything?domains=techcrunch.com,thenextweb.com&apiKey=8289078da9d6489f954daa10b6c9bfe9";
 btnTech.addEventListener("click", () => {
   fetch(techApi)
     .then((response) => response.json())
@@ -191,10 +191,10 @@ btnTech.addEventListener("click", () => {
 });
 
 //////////////////
-///Business news//
+///BBC NEWS//
 /////////////////
 const Business_News =
-  "https://newsapi.org/v2/top-headlines?q=trump&apiKey=8289078da9d6489f954daa10b6c9bfe9";
+  "https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=8289078da9d6489f954daa10b6c9bfe9";
 btnBusiness.addEventListener("click", function () {
   fetch(Business_News)
     .then((response) => response.json())

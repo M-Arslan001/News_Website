@@ -156,6 +156,7 @@ header.shadow .logo {
     color: #111;
     font-size: 2rem;
     margin-bottom: 10px;
+    padding-top: 237px;
 }
 
 .title-text {
@@ -169,7 +170,7 @@ header.shadow .logo {
     min-width: 50%;
     width: 50%;
     min-height: 500px;
-    padding-top: 60px;
+    padding-top: 234px;
 
 }
 
@@ -433,7 +434,10 @@ footer p {
     color: #fff;
 }
 
-@media (max-width: 1060px) {
+/* -----------------/*
+|    media queries
+/* ----------------- */
+/* @media (max-width: 1060px) {
     .container {
         margin: 0 auto;
         width: 95%;
@@ -442,9 +446,25 @@ footer p {
     .home-text {
         width: 100%
     }
-}
+} */
 
 @media (max-width: 768px) {
+    .about .imgBx {
+        min-width: 50%;
+        width: 50%;
+        min-height: 500px;
+        padding-top: 350px;
+
+    }
+
+    .titleText {
+        font-weight: 600;
+        color: #111;
+        font-size: 2rem;
+        margin-bottom: 10px;
+        padding-top: 440px;
+    }
+
     .nav {
         padding: 10px 0;
     }
@@ -473,30 +493,6 @@ footer p {
         height: 370px;
     }
 
-    .about {
-        flex-direction: column;
-        margin-top: 73px;
-    }
-
-    .about .contentBx {
-        min-width: 100%;
-        width: 100%;
-        text-align: center;
-        padding-right: 0px;
-    }
-
-    .about .contentBx,
-    .about .imgBx {
-        min-width: 100%;
-        width: 100%;
-        padding-right: 0px;
-        text-align: center;
-    }
-
-    .about .imgBx {
-        min-height: 250px;
-    }
-
     .btn2 {
         margin-bottom: 30px;
     }
@@ -511,6 +507,7 @@ footer p {
 }
 
 @media (max-width: 570px) {
+
     .post-header {
         height: 390px;
     }
@@ -560,6 +557,11 @@ footer p {
 
 /* Footer Media Query */
 @media (max-width: 991px) {
+    .titleText {
+        color: #111;
+        padding-top: 398px;
+    }
+
     footer {
         padding: 40px;
         font-size: 20px;
@@ -585,4 +587,45 @@ footer p {
     footer .footer-container .contactBx {
         width: 100%;
     }
+}
+
+@media (max-width:412px) {
+    .about {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .titleText {
+        color: #111;
+        padding-top: 398px;
+        align-text: center;
+
+    }
+
+    .about .imgBx {
+        width: 100%;
+
+        padding-top: 350px;
+
+    }
+
+    /* .about .contentBx {
+        min-width: auto;
+        width: 100%;
+        text-align: center;
+        padding-right: 0px;
+    }
+
+    .about .contentBx,
+    .about .imgBx {
+        min-width: auto;
+        width: 100%;
+        padding-right: 0px;
+        text-align: center;
+
+    }
+
+    .about .imgBx {
+        min-height: auto;
+    } */
 }
