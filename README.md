@@ -21,7 +21,7 @@ This is a simple news website created using HTML, CSS, JavaScript, and the News 
 ## Features
 
 - Display the latest news articles.
-- Filter news by category (All, Tech, Business).
+- Filter news by category (All, Tech, BBC News).
 - Responsive design for mobile and desktop.
 
 
@@ -29,7 +29,7 @@ This is a simple news website created using HTML, CSS, JavaScript, and the News 
 - Open the website in your web browser to view the latest news articles.
 - Use the category buttons (All, Tech, BBC News) to filter news by category.
 ## API
--This project uses the News API to fetch news data. You will need to obtain an API key from their website (newsapi.org) and replace the placeholder in the JavaScript code with your own API key.
+- This project uses the News API to fetch news data. You will need to obtain an API key from their website (newsapi.org) and replace the placeholder in the JavaScript code with your own API key.
 const apiKey = 'YOUR_API_KEY';
 ## Contributing
 
